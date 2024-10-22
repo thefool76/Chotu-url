@@ -12,6 +12,7 @@ export async function middleware(req: NextRequest) {
   );
 
   try {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const verifiedJWT = await jwtVerify(hanko ?? "", JWKS);
   } catch {
     return NextResponse.redirect(new URL("/login", req.url));

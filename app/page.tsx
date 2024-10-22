@@ -34,7 +34,7 @@ export default function Homepage() {
             asChild
           >
             <div>
-              <Link href="/login">Let's start</Link>
+              <Link href="/login">Lets start</Link>
               <ChevronRight className="ml-2 h-5 w-5" />
             </div>
           </Button>
